@@ -18,7 +18,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; [1]: http://www.autohotkey.com/
 
 ; Alt+F10
-End::
+END::
 !F10::
     BlockInput On
     SendMessage 0x112, 0xF170, 2, , Program Manager  ; Monitor off

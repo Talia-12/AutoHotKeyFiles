@@ -15,7 +15,7 @@ toggleFullscreen()
 Return
 
 ; Print name of active window.
-^+i::
+^!+i::
 winID := "HI"
 WinGet, winID, ID, A
 WinGet, winProcessName, ProcessName, A
