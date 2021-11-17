@@ -18,9 +18,10 @@ Return
 ^!+i::
 winID := "HI"
 WinGet, winID, ID, A
+WinGet, processID, PID, A
 WinGet, winProcessName, ProcessName, A
 WinGetTitle, winTitle, A
-MsgBox, winTitle: %winTitle%, winID: %winID%, ProcessName: %ProcessName%
+MsgBox, winTitle: %winTitle%, winID: %winID%, processID %processID%, ProcessName: %winProcessName%
 Return
 
 ; set current window always on top

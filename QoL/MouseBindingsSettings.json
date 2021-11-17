@@ -1,0 +1,271 @@
+{
+	"default": {
+		"1": {
+			"default": [
+				"Send 1",
+				"default to sending 1"
+			]
+		},
+		"2": {
+			"default": [
+				"Send 2",
+				"default to sending 2"
+			]
+		},
+		"3": {
+			"default": [
+				"Send 3",
+				"default to sending 3"
+			]
+		},
+		"4": {
+			"default": [
+				"Send 4",
+				"default to sending 4"
+			]
+		},
+		"5": {
+			"default": [
+				"Send 5",
+				"default to sending 5"
+			]
+		},
+		"6": {
+			"default": [
+				"Send 6",
+				"default to sending 6"
+			]
+		},
+		"7": {
+			"default": [
+				"Send 7",
+				"default to sending 7"
+			]
+		},
+		"8": {
+			"default": [
+				"Send 8",
+				"default to sending 8"
+			]
+		},
+		"9": {
+			"default": [
+				"Send 9",
+				"default to sending 9"
+			]
+		},
+		"10": {
+			"default": [
+				"Send 0",
+				"default to sending 0"
+			]
+		},
+		"11": {
+			"default": [
+				"moveVirtualDesktop(\"LEFT\")",
+				"Move one virtual desktop left."
+			]
+		},
+		"12": {
+			"default": [
+				"moveVirtualDesktop(\"RIGHT\")",
+				"Move one virtual desktop right."
+			]
+		}
+	},
+	"0": {
+		"name": "NUMBERMODE",
+		"1": {},
+		"2": {},
+		"3": {},
+		"4": {},
+		"5": {},
+		"6": {},
+		"7": {},
+		"8": {},
+		"9": {},
+		"10": {},
+		"11": {
+			"default": [
+				"Send -",
+				"default to sending -"
+			]
+		},
+		"12": {
+			"default": [
+				"Send =",
+				"default to sending ="
+			]
+		}
+	},
+	"1": {
+		"name": "DEFAULTMODE",
+		"1": {},
+		"2": {},
+		"3": {},
+		"4": {
+			"default": [
+				"searchHighlightedText()",
+				"Search the text that is currently highlighted using the default browser."
+			]
+		},
+		"5": {
+			"studio64.exe": [
+				"Send {Ctrl down}{NumpadSub}{Ctrl up}",
+				"Collapse current code context."
+			],
+			"idea64.exe": [
+				"Send {Ctrl down}{NumpadSub}{Ctrl up}",
+				"Collapse current code context."
+			]
+		},
+		"6": {
+			"studio64.exe": [
+				"Send {Ctrl down}{NumpadAdd}{Ctrl up}",
+				"Expand current code context."
+			],
+			"idea64.exe": [
+				"Send {Ctrl down}{NumpadAdd}{Ctrl up}",
+				"Expand current code context."
+			]
+		},
+		"7": {
+			"studio64.exe": [
+				"Send {Ctrl down}{Shift down}{Alt down}{T}{Alt up}{Shift up}{Ctrl up}",
+				"Refactor at the cursor."
+			],
+			"idea64.exe": [
+				"Send {Ctrl down}{Shift down}{Alt down}{T}{Alt up}{Shift up}{Ctrl up}",
+				"Refactor at the cursor."
+			]
+		},
+		"8": {
+			"studio64.exe": [
+				"Send {Ctrl down}{Shift down}{NumpadSub}{Shift up}{Ctrl up}",
+				"Collapse all code contexts."
+			],
+			"idea64.exe": [
+				"Send {Ctrl down}{Shift down}{NumpadSub}{Shift up}{Ctrl up}",
+				"Collapse all code contexts."
+			]
+		},
+		"9": {
+			"studio64.exe": [
+				"Send {Ctrl down}{Shift down}{NumpadAdd}{Shift up}{Ctrl up}",
+				"Expand all code contexts."
+			],
+			"idea64.exe": [
+				"Send {Ctrl down}{Shift down}{NumpadAdd}{Shift up}{Ctrl up}",
+				"Expand all code contexts."
+			]
+		},
+		"10": {
+			"brave.exe": [
+				"Send {F5}",
+				"Reload the current tab."
+			]
+		},
+		"11": {},
+		"12": {}
+	},
+	"2": {
+		"name": "VIDEOMODE",
+		"1": {
+			"default": [
+				"Send {Volume_Mute}",
+				"Toggle the system mute."
+			]
+		},
+		"2": {
+			"default": [
+				"Send {Volume_Down}",
+				"Reduce the system volume."
+			]
+		},
+		"3": {
+			"default": [
+				"Send {Volume_Up}",
+				"Increase the system volume."
+			]
+		},
+		"4": {
+			"default": [
+				"youtubeSend(\"k\")",
+				"Swap Brave to active, send k (to pause/unpause a video), and swap back."
+			]
+		},
+		"5": {
+			"default": [
+				"youtubeSend(\"{Left}\")",
+				"Swap Brave to active, send Left, and swap back."
+			]
+		},
+		"6": {
+			"default": [
+				"youtubeSend(\"{Right}\")",
+				"Swap Brave to active, send Right, and swap back."
+			]
+		},
+		"7": {
+			"default": [
+				"youtubeSend(\"^w\")",
+				"Swap Brave to active, close whatever tab is open, and swap back."
+			]
+		},
+		"8": {
+			"default": [
+				"youtubeSend(\"+<\")",
+				"Swap Brave to active, reduce Youtube's playback speed, and swap back."
+			]
+		},
+		"9": {
+			"default": [
+				"youtubeSend(\"+>\")",
+				"Swap Brave to active, increase Youtube's playback speed, and swap back."
+			]
+		},
+		"10": {
+			"default": [
+				"youtubeSend(\"{F5}\")",
+				"Swap Brave to active, reload the current tab, and swap back."
+			]
+		},
+		"11": {
+			"default": [
+				"youtubeSend(\"^+{Tab}\")",
+				"Swap Brave to active, move one tab left, and swap back."
+			]
+		},
+		"12": {
+			"default": [
+				"youtubeSend(\"^{Tab}\")",
+				"Swap Brave to active, move one tab right, and swap back."
+			]
+		}
+	},
+	"9": {
+		"name": "AUTOHOTKEYMODE",
+		"1": {
+			"default": [
+				"GUI, MouseHotKeyList:New, , Mouse HotKey List\nGui, Add, Text,, Please enter your name:\nGui, Add, Edit, vName\nGui, Show",
+				"testing text entry into GUIs"
+			]
+		},
+		"2": {},
+		"3": {},
+		"4": {},
+		"5": {},
+		"6": {},
+		"7": {},
+		"8": {},
+		"9": {},
+		"10": {
+			"default": [
+				"WinGetTitle, Title, A\nWinGetClass, class, A\nWinGet, processName, ProcessName, A\nWinGet, processPath, ProcessPath, A\nWinGet, uniqueID, ID, A\nMsgBox, The active window's class is \"%class%\". The active window's process name is \"%processName%\". The active window's process path is \"%processPath%\". The active window's title is \"%Title%\". The active window's unique ID is \"%uniqueID%\".",
+				"Display information about the current active window."
+			]
+		},
+		"11": {},
+		"12": {}
+	}
+}
