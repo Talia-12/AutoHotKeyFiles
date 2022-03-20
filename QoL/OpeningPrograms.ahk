@@ -3,6 +3,12 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+If not A_IsAdmin
+{
+  Run *RunAs "%A_ScriptFullPath%"
+  ExitApp
+}
+
 #Include, %A_ScriptDir%\FunctionsOpeningPnW.ahk
 
 #n::
@@ -11,6 +17,10 @@ return
 
 #c::
 Run calc.exe
+return
+
+#t::
+Run "C:\Users\parad\OneDrive\Desktop\Windows Terminal"
 return
 
 ^#s:: ; Ctrl + Win + s

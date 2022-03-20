@@ -3,9 +3,16 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+If not A_IsAdmin
+{
+  Run *RunAs "%A_ScriptFullPath%"
+  ExitApp
+}
+
 #maxThreadsPerHotkey, 2
 setKeyDelay, 50, 50
 setMouseDelay, 50
+
 shouldLeftClick  := 0
 shouldHoldLeft   := 0
 shouldRightClick := 0

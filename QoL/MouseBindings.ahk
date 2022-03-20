@@ -26,6 +26,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;	}
 ;	...
 
+If not A_IsAdmin
+{
+  Run *RunAs "%A_ScriptFullPath%"
+  ExitApp
+}
+
 #Include, %A_ScriptDir%\FunctionsNavigation.ahk
 #Include, %A_ScriptDir%\FunctionsOpeningPnW.ahk
 #Include, %A_ScriptDir%\FunctionsYoutube.ahk

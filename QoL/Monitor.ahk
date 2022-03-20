@@ -17,6 +17,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; [1]: http://www.autohotkey.com/
 
+If not A_IsAdmin
+{
+  Run *RunAs "%A_ScriptFullPath%"
+  ExitApp
+}
+
 ; Alt+F10
 END::
 !F10::
